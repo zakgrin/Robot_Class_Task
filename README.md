@@ -7,6 +7,7 @@ In https://godbolt.org/ using c++17: Implement a data model. which represents a 
 If you are not familiar with C++, you can perform the task with Python 3+. If you are familiar with C++ a solution with C++ is preferred for this evaluation.
 
 ## Solution
+File: [`main.cpp`](main.cpp)
 In this project, object-oriented programming in C++ was used to create a class for a Robot.
 The Robot has a fixed path and can only move either forward or backward in this path.
 An initial state of the Robot include:
