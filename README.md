@@ -1,13 +1,3 @@
-# STTECH_TASK
-Solved by Zakariya Abu Grin
-
-## Problem
-In https://godbolt.org/ using c++17: Implement a data model. which represents a 2D path of variable length. Initiate a new path with the folllowing data https://pastebin.com/raw/mLc80Pen. As a preliminary to following the path with a robot, please perform a battery ressources check. The battery level is represented in percent and can be between 0 and 100%. Write a function which checks if enough battery ressources are available to complete the given path. Make reasonable assumptions for the information that you are missing and explain the assumptions. Assumptions should be explained directly in the code.
-
-If you are not familiar with C++, you can perform the task with Python 3+. If you are familiar with C++ a solution with C++ is preferred for this evaluation.
-
-## Solution
-File: [`main.cpp`](main.cpp)
 In this project, object-oriented programming in C++ was used to create a class for a Robot.
 The Robot has a fixed path and can only move either forward or backward in this path.
 An initial state of the Robot include:
